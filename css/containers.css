@@ -1,0 +1,40 @@
+.vi-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra columnas si hay menos de 4 */
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .vi-col {
+    flex: 1 1 calc(25% - 1rem); /* Hasta 4 columnas */
+    min-width: 200px; /* Se ajusta responsivamente */
+    background-color: #111111;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsivo: en pantallas pequeñas muestra menos columnas */
+  @media (max-width: 992px) {
+    .vi-col {
+      flex: 1 1 calc(50% - 1rem); /* Hasta 2 por fila */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .vi-col {
+      flex: 1 1 100%; /* Una por fila */
+    }
+  }
+
+  .img-ajustada {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+  }
+  
+  

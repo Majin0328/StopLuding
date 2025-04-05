@@ -19,6 +19,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/containers.css" rel="stylesheet" />
+
+    <link href="css/styles.css?v=2" rel="stylesheet" />
+
 </head>
 
 <body>
@@ -26,8 +30,9 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light bg-dark py-3">
             <div class="container px-5">
-                <a class="navbar-brand" href="indexprincipal.php"><span class="fw-bolder text-primary">StopLuding</span></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            <a class="navbar-brand" href="index.html">
+                     <img src="images\STOPLUDINGHEADERnb.png" alt="StopLuding" style="height: 40px;">
+                </a>                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation"><span
                         class="navbar-toggler-icon"></span></button>
@@ -53,161 +58,160 @@
     }
         </style>
 
-        <div class="container-wrapper">
-<div class="container" style="width: calc(33.33% - 2px); height: 700px;">
-    <!-- Contenido de la primera división -->
-    <div class="row gx-3 align-items-center">
+<div class="vi-container">
+
+  <div class="vi-col">
+  <div class="row gx-3 align-items-center">
                     <div class="col-xxl-5">
                         <!-- Header text content-->
                         <div class="text-center text-xxl-start">
                             <a href="https://www.tiktok.com/">
-<img src="images/tiktok.jpg" alt="tiktok.jpg" width="150" height="150" >
+<img src="images/tiktok.png" alt="tiktok.jpg" width="20%" height="20%" >
                             </a>
                             <div class="fs-3 fw-light text-muted ">
                                 <a class="display-5 fw-bolder nav-link text-gradient d-inline"
                                     href="contenido.php">TikTok</a>
                                 <br>
-                                <p style="margin-top: 15px">Sigue nuestra cuenta de tiktok para enterarte de la ultima informacion</p>
+                                <p style="margin-top: 15px">Sigue nuestra cuenta de tiktok para enterarte de la última información </p>
                                 <p>Cuentas:</p>
 
                                 <p>StopLudingOficial</p>
                                 <p>StopLuding</p>
                             </div>
+                            <br>                            <br>
+
+                            <div class="chat-container">
+            <div class="chat-row bottom">
+                <img src="images\LUDI PNG\ludi-cuphead.png"  alt="45%" width=45%">
+
+                    <div class="chat-bubble"> Las redes sociales son grandes medios para informar :D</div>
+
+   
+                  </div>
+                </div>
                         </div>
                     </div>
                 </div>
   </div>
 
-  <div class="container" style="width: calc(33.33% - 2px); height: 700px;">
-    <!-- Contenido de la segunda división -->
+  
+  <div class="vi-col">
       <div class="row gx-5 align-items-center">
                     <div class="col-xxl-5">
                         <!-- Header text content-->
                         <div class="text-center text-xxl-start">
                             <a href="https://www.whatsapp.com/?lang=es">
-<img src="images/whats.jpg" alt="whats.jpg" width="150" height="150" >
+<img src="images/whats.png" alt="whats.png" width="25%" height="25%" >
                             </a>
                             <div class="fs-3 fw-light text-muted"><a
                                     class="display-5 fw-bolder nav-link text-gradient d-inline"
                                     href="contenido.php">Whatsapp</a>
                                 <br>
                        <p style="margin-top: 15px">Puedes contactarnos de lunes a viernes de 8 a 20 hrs, ¡Intentaremos responderte a la inmediates!</p>
-                                <p>Numeros:</p>
+                                <p>Números:</p>
 
                                 <p>7711057277</p>
                                 <p>7202203157</p>
 
                             </div>
 
+                            <div class="chat-container">
+            <div class="chat-row bottom">
+                <img src="images\LUDI PNG\ludi-zelda.png"  alt="55%" width=55%">
+
+                    <div class="chat-bubble">¡Comunícate con nosotros e inicia una nueva aventura!</div>
+
+   
+                  </div>
+                </div>
                         </div>
                     </div>
                 </div>
+  </>
   </div>
 
-  <div class="container" style="width: calc(33.33% - 2px); height: 700px;">
-    <!-- Contenido de la tercera división -->
+  <div class="vi-col">
+  
       <div class="row gx-5 align-items-center">
                     <div class="col-xxl-5">
                         <!-- Header text content-->
                         <div class="text-center text-xxl-start">
                             <a href="https://www.facebook.com/profile.php?id=61573735804455&__cft__[0]=AZVAe4GfQVsHTLUHkqqrPdI7TNNK7OqXe7_SjAMj008JEU7sunuHvSNtKLhfCH-jmswvsDMdtesryc_5w56-a4MjasIgJhVaWsUueR1uG5LJ8zzE8-RGEoTJrKpBHLCE3_LbdzUB4QPg848ATkGbKPETu_SrkvSSO8cTpu2VYtq2glMd8d2yfbShnbS40uaQ8kscTXWxSjDgL63Eldtledc4&__tn__=-]C%2CP-R">
-<img src="images/facebook.jpg" alt="facebook.jpg" width="150" height="150" >
+<img src="images/facebook.png" alt="facebook.png" width="15%" height="15%" >
                                 </a>
                             <div class="fs-3 fw-light text-muted"><a
                                     class="display-5 fw-bolder nav-link text-gradient d-inline"
                                     href="contenido.php">Facebook</a>
                                 <br>
-                                <p style="margin-top: 15px">Pasate tambien por nuestro facebook donde encontraras:</p>
+                                <p style="margin-top: 15px">Pásate también por nuestro Facebook donde encontraras:</p>
 
                                 <p>Videos sobre el tema</p>
                                 <p>Una comunidad dispuesta a ayudar</p>
-                                <p>Testimonios de personas que ha superado la adversidad</p>
-                                <p>Eventos y noticias</p>
+                                
 
                                 <p>StopLudingOficial</p>
 
                             </div>
 
+                            <div class="chat-container">
+            <div class="chat-row bottom">
+                <img src="images\LUDI PNG\ludi-TLOU.png"  alt="55%" width=55%">
+
+                    <div class="chat-bubble">Página a prueba de Chasqueadores. De eso me encargo yo.</div>
+
+   
+                  </div>
+                </div>
                         </div>
                     </div>
                 </div>
          </div>
-    </div>
-    
-    <section>
-        <div class="container px-5">
-            <!-- Contact form-->
-            <div class="bg-light rounded-4 py-5 px-4 px-md-5">
-                <div class="text-center mb-5">
-                    
-                    <img class="img-contact" src="images/favicon.png"/>
-                    <h1 class="fw-bolder"><span class="text-gradient d-inline">¡Formulario de contacto!</span></h1>
-                    <p class="lead fw-normal text-muted mb-0">Rellena los siguientes campos con tus datos</p>
-                </div> 
-                <div class="row gx-5 justify-content-center">
-                    <div class="col-lg-8 col-xl-6">
-                        <form action="savecontacto.php" method="POST">
-                            <!-- Name input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" name="Nombre" id="Nombre" type="text" placeholder="Enter your name..." required/>
-                                <label for="name">Nombre completo</label>
-                                <div class="invalid-feedback" data-sb-feedback="name:required">El nombre es obligatorio.</div>
-                            </div>
-                            <!-- Email address input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" name="Correo" id="Correo" type="email" placeholder="name@example.com"  required />
-                                <label for="email">Dirección Email</label>
-                                <div class="invalid-feedback" data-sb-feedback="email:required">Escribe tu Email.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">El Email no es valido.</div>
-                            </div>
-                            <!-- Phone number input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" name="Telefono" id="Telefono" type="tel" placeholder="(123) 456-7890" />
-                                <label for="phone">Número de celular</label>
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">Tú número de celular es obligatorio.</div>
-                            </div>
-                            <!-- Message input-->
-                            <div class="form-floating mb-3">
-                                <textarea class="form-control" name="Mensaje" id="Mensaje" type="text" placeholder="Enter your message here..." style="height: 10rem" required></textarea>
-                                <label for="message">Mensaje</label>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">El mensaje es obligatorio.</div>
-                            </div>
-                            <!-- Submit success message-->
-                            <!---->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted-->
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3">
-                                    <div class="fw-bolder">Formulario de contacto completado</div>
-                                    
-                                </div>
-                            </div>
-                            <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form-->
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error al mandar formulario</div></div>
-                            <!-- Submit Button-->
-                            <div class="d-grid"><button class="btn btn-primary btn-lg" id="submitButton" type="submit">Enviar</button></div>
+  </div>
 
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+</div>
 
-
-    <!-- Footer-->
+   
     <footer class="bg-dark py-4 mt-auto">
-        <div class="container px-5">
-            <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                <div class="col-auto">
-                    <div class="small m-0" style="color:#FFFFFF;"> OTOMIPEDIA &copy; DERECHOS RESERVADOS 2023</div>
-                </div>
+    <div class="container px-5">
+        <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+            <!-- Columna 1: Redes sociales -->
+            <div class="col-12 col-sm-4 mb-4 mb-sm-0">
+                <h5 class="text-white">Síguenos</h5>
+                <ul class="list-unstyled">
+                    <li><a href="https://www.facebook.com" class="text-white" target="_blank"><i class="bi bi-facebook"></i> Facebook</a></li>
+                    <li><a href="https://www.twitter.com" class="text-white" target="_blank"><i class="bi bi-twitter"></i> Twitter</a></li>
+                    <li><a href="https://www.instagram.com" class="text-white" target="_blank"><i class="bi bi-instagram"></i> Instagram</a></li>
+                    <li><a href="https://www.linkedin.com" class="text-white" target="_blank"><i class="bi bi-linkedin"></i> LinkedIn</a></li>
+                </ul>
+            </div>
+
+            <!-- Columna 2: Enlaces de referencia -->
+            <div class="col-12 col-sm-4 mb-4 mb-sm-0">
+                <h5 class="text-white">Referencias</h5>
+                <ul class="list-unstyled">
+                    <li><a href="politica_privacidad.html" class="text-white">Política de Privacidad</a></li>
+                    <li><a href="terminos_condiciones.html" class="text-white">Términos y Condiciones</a></li>
+                    <li><a href="contacto.html" class="text-white">Contacto</a></li>
+                </ul>
+            </div>
+
+            <!-- Columna 3: Iconos de servicios -->
+            <div class="col-12 col-sm-4 mb-4 mb-sm-0">
+                <h5 class="text-white">Servicios</h5>
+                <ul class="list-unstyled">
+                    <li><a href="evaluar.html" class="text-white"><i class="bi bi-check-circle"></i> Evaluación</a></li>
+                    <li><a href="contenido.html" class="text-white"><i class="bi bi-journal-text"></i> Contenido</a></li>
+                    <li><a href="perfil.html" class="text-white"><i class="bi bi-person-circle"></i> Perfil</a></li>
+                </ul>
             </div>
         </div>
-    </footer>
+        <div class="row mt-3">
+            <div class="col text-center">
+                <div class="small m-0 text-white">STOPLUDING &copy; DERECHOS RESERVADOS 2025</div>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 
 </html>

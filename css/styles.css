@@ -11,6 +11,132 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
+ /* Estilo para footer */
+
+ footer a:hover {
+  text-decoration: underline;
+  color: #f8f9fa;
+}
+
+footer i {
+  margin-right: 10px;
+}
+
+
+ .fondo-imagen {
+  position: absolute;
+  z-index: -1; /* Asegura que la imagen se quede detrás del contenido */
+}
+
+/* Estilo para globos de texto */
+/* Contenedor general */
+/* Contenedor general de los chats */
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 40px;
+}
+
+/* Fila de chat (posición izquierda, derecha o inferior) */
+.chat-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Imagen completa del personaje */
+.personaje-img {
+  max-height: 180px;
+  width: auto;
+}
+/* Imagen completa del personaje grande*/
+.personaje-bigimg {
+  max-height: 360px;
+  width: auto;
+}
+
+/* Globo de texto */
+.chat-bubble {
+  position: relative;
+  max-width: 500px;
+  padding: 15px 20px;
+  background-color: #e0f7fa;
+  color: #333;
+  border-radius: 30px;
+  font-size: 16px;
+  line-height: 1.4;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+/* Globo de texto */
+.chat-bubble-big {
+  position: relative;
+  max-width: 500px;
+  padding: 15px 20px;
+  background-color: #e0f7fa;
+  color: #333;
+  border-radius: 30px;
+  font-size: 30px;
+  line-height: 1.4;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.chat-bubble::after {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: -20px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent #e0f7fa transparent transparent;
+}
+
+
+/* Chat derecha */
+.chat-row.right {
+  justify-content: flex-end;
+}
+
+/* Globo derecha */
+.chat-bubble.right {
+  background-color: #e0f7fa;
+}
+
+.chat-bubble.right::after {
+  left: auto;
+  right: -20px;
+  border-color: transparent transparent transparent #e0f7fa;
+}
+
+/* Chat inferior (personaje abajo, globo arriba) */
+.chat-row.bottom {
+  flex-direction: column-reverse;
+  align-items: center;
+  text-align: center;
+}
+
+.chat-row.bottom .chat-bubble {
+  background-color: #ffe082;
+}
+
+.chat-row.bottom .chat-bubble::after {
+  top: 100%;
+  left: 50%;
+  margin-left: -10px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #ffe082 transparent transparent transparent;
+}
+
+/* Avatar (imagen del personaje) */
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
  video {
   width: 80%; /* Ancho del video */
   max-width: 800px; /* Ancho máximo */
@@ -11582,9 +11708,11 @@ html {
 }
 
 .text-gradient {
-  background: -webkit-linear-gradient(315deg, #F59427 0%, #FFFFFF 100%);
+  background: -webkit-linear-gradient(315deg, #F59427 0%, #f2af63 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color:transparent;
 
-  -webkit-text-fill-color: transparent;
 }
 
 .rounded-4 {

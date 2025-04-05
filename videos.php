@@ -18,13 +18,49 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/styles.css?v=2" rel="stylesheet" />
+
     </head>
 <body>
+      <!-- Imagen de fondo 1 -->
+<div class="fondo-imagen" style="position: absolute; top: 240px; left: 180px; width: 200px; height: 300px;">
+  <img src="images/PDVertical.png" alt="Imagen 1" style="width: 100%; height: 100%; object-fit: contain;">
+</div>
+
+<!-- Imagen de fondo 2 -->
+<div class="fondo-imagen" style="position: absolute; top: 550px; left: 950px; width: 200px; height: 300px;">
+  <img src="images/PBVertical.png" alt="Imagen 2" style="width: 100%; height: 100%; object-fit: contain;">
+</div>
+
+  <!-- Imagen de fondo 3 -->
+  <div class="fondo-imagen" style="position: absolute; top: 1100px; left: 180px; width: 200px; height: 300px;">
+  <img src="images/PDVertical.png" alt="Imagen 1" style="width: 100%; height: 100%; object-fit: contain;">
+</div>
+ <!-- Imagen de fondo 4 -->
+ <div class="fondo-imagen" style="position: absolute; top: 1500px; left: 950px; width: 200px; height: 300px;">
+  <img src="images/PBVertical.png" alt="Imagen 1" style="width: 100%; height: 100%; object-fit: contain;">
+</div>
+
+<!-- Imagen de fondo 5-->
+<div class="fondo-imagen" style="position: absolute; top: 1900px; left: 180px; width: 200px; height: 300px;">
+  <img src="images/PDVertical.png" alt="Imagen 2" style="width: 100%; height: 100%; object-fit: contain;">
+</div>
+
+  <!-- Imagen de fondo 6 -->
+  <div class="fondo-imagen" style="position: absolute; top: 2200px; left: 950px; width: 200px; height: 300px;">
+  <img src="images/PBVertical.png" alt="Imagen 1" style="width: 100%; height: 100%; object-fit: contain;">
+</div>
+
+<!-- Imagen de fondo 7 -->
+<div class="fondo-imagen" style="position: absolute; top: 2600px; left: 180px; width: 200px; height: 300px;">
+  <img src="images/PDVertical.png" alt="Imagen 1" style="width: 100%; height: 100%; object-fit: contain;">
+</div>
     <main>
         <nav class="navbar navbar-expand-lg navbar-light bg-dark py-3">
             <div class="container px-5">
-                <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">StopLuding</span></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            <a class="navbar-brand" href="index.html">
+                     <img src="images\STOPLUDINGHEADERnb.png" alt="StopLuding" style="height: 40px;">
+                </a>                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation"><span
                         class="navbar-toggler-icon"></span></button>
@@ -53,7 +89,22 @@
                                 <a class="display-5 fw-bolder nav-link text-gradient d-inline"
                                     href="https://www.youtube.com/watch?v=JIge_4fCHVI">El peligro de las Lootboxes y los gachas en la actualidad por BaityBait</a>
                                 <br>
-                                <iframe
+ 
+<div class="container d-flex justify-content-center align-items-center" style="height: 55vh;">
+
+    <div>
+    <div class="chat-container">
+
+    <div class="chat-row">
+    <img src="images\LUDI PNG\ludi-sad.png" class="avatar" alt="personaje 1">
+    <div class="chat-bubble-big">¡Esto es terrible!</div>
+  </div>
+</div>
+    </div>
+
+<div>
+
+<iframe
     width="560"
     height="315"
     src="https://www.youtube.com/embed/JIge_4fCHVI"
@@ -62,10 +113,13 @@
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     allowfullscreen>
 </iframe>
-                            
-                                <h4>En este video aprenderas la gravedad de estas mecanicas apararentemente inofensivas y el modus operandi de las
-                                    grandes empresas para mantenerte sujeto a sus cuestionables modelos de negocio, todo desde un enfoque mas tranquilo
-                                    y divertido.</h4>
+</div>
+</div>
+                                <h4>En este video aprenderás la gravedad de estas mecánicas
+                                     aparentemente inofensivas y el modus operandi de las 
+                                     grandes empresas para mantenerte sujeto a sus cuestionables 
+                                     modelos de negocio, todo desde un enfoque más tranquilo y 
+                                     divertido.</h4>
                                 </p>
                             </div>
                         </div>
@@ -81,9 +135,15 @@
 
                             <div class="fs-3 fw-light text-muted ">
                                 <a class="display-5 fw-bolder nav-link text-gradient d-inline"
-                                    href="https://www.youtube.com/watch?v=4YeHni-Zlwg">La ludopatia Digital</a>
+                                    href="https://www.youtube.com/watch?v=4YeHni-Zlwg">La ludopatía Digital</a>
                                 <br>
-                                <iframe
+  
+
+<div class="container d-flex justify-content-center align-items-center" style="height: 55vh;">
+
+    <div>
+    <!-- Aqui va el Iframe -->
+<iframe
     width="560"
     height="315"
     src="https://www.youtube.com/embed/4YeHni-Zlwg"
@@ -92,8 +152,21 @@
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     allowfullscreen>
 </iframe>
-                                <h4>En este video conoceras el impacto que la ludopatia digital esta teniendo en los jovenes
-                                    y como su alarmante crecimiento preocupa a la gente.</h4>
+
+    </div>
+
+<div>
+
+<div class="chat-container">
+    
+<div class="chat-row right">
+    <img src="images\LUDI PNG\ludi-angry.png" class="avatar" alt="personaje 1">
+    <div class="chat-bubble-big right">¡Una cosa muy seria!</div>
+  </div>
+</div>
+</div>
+</div>
+                                <h4>En este video conocerás el impacto que la ludopatía digital está teniendo en los jóvenes y como su alarmante crecimiento preocupa a la gente.</h4>
                                 </p>
                             </div>
                         </div>
@@ -111,6 +184,17 @@
                                 <a class="display-5 fw-bolder nav-link text-gradient d-inline"
                                     href="https://www.youtube.com/watch?v=4_UF56caCmQ">El FIFA como precedente</a>
                                 <br>
+
+<div class="container d-flex justify-content-center align-items-center" style="height: 33vh;">
+<div class="chat-container">
+ <div class="chat-row right">
+    <div style="display: flex; flex-direction: column; padding: 10px;">
+      <div class="chat-bubble-big right"> El FIFA es todo lo malo de la industria moderna...</div>
+            </div>
+                <img src="images\LUDI PNG\ludi-sad1.png"  alt="20%" width="20%">
+             </div>
+        </div>
+    </div>
                                 <iframe
     width="560"
     height="315"
@@ -120,16 +204,45 @@
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     allowfullscreen>
 </iframe>
-                                <h4>Es este video conoceras el caso del FIFA, juego mediocre que ademas de todo es de los
-                                    precursores en tener jovenes gastando dinero para sacar cromos, en el video se habla de
-                                    como un juego de esas caracteristicas deberia ser para mayores de 18.
-                                </h4>
+                                <h4>Es este video conocerás el caso del FIFA, juego mediocre 
+                                    que además de todo es de los precursores en tener jóvenes 
+                                    gastando dinero para sacar cromos, en el video se habla de 
+                                    cómo un juego de esas características debería ser para
+                                    mayores de edad.
+                                      </h4>
                             </div>
 
-                            <div class="fs-3 fw-light text-muted ">
+
+
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+<div class="container pb-5">
+<div class="row gx-3 align-items-center">
+                    <div class="col-xxl-5">
+                        <!-- Header text content-->
+                        <div class="text-center text-xxl-start">
+
+<div class="fs-3 fw-light text-muted ">
                                 <a class="display-5 fw-bolder nav-link text-gradient d-inline"
                                     href="https://www.youtube.com/watch?v=0MrmuQHQ7dU">El infierno de las lootboxes y los gachas por Joseju</a>
                                 <br>
+
+<div class="container d-flex justify-content-center align-items-center" style="height: 33vh;">
+<div class="chat-container">
+ <div class="chat-row">
+ <img src="images\LUDI PNG\ludi-dissapointed.png"  alt="20%" width=20%">
+
+ <div class="chat-bubble-big right"> Se está saliendo de control</div>
+
+   
+             </div>
+        </div>
+    </div>
+
                                 <iframe
     width="560"
     height="315"
@@ -139,14 +252,15 @@
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     allowfullscreen>
 </iframe>
-                                <h4>Es este video conoceras el origen de las microtransacciones como las conocemos hoy en dia, todo lo inicio una
-                                    brida de caballo dorada para the elder scrolls oblivion y ahora estan por todos lados.
-                                </h4>
+                                <h4>Es este video conocerás el origen de las micro transacciones 
+                                    como las conocemos hoy en día, todo lo inicio una brida de 
+                                    caballo dorada para The Elder Scrolls: Oblivion y ahora están 
+                                    por todos lados.</h4>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+</div>
+</div>
+</div>
+</div>
 
             <div class="container pb-5">
                 <div class="row gx-3 align-items-center">
@@ -167,9 +281,22 @@
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     allowfullscreen>
 </iframe>
-                                <h4>Es este video veras a profundidad como funcionan estos mecanismos de adiccion que las empresas usan para
-                                    manteneros siempe ahi, lo peligrosas que son las microtransacciones y su origen, desde un enfoque mas ameno
-                                    y comprensible.
+<div class="container d-flex justify-content-center align-items-center" style="height: 42vh;">
+<div class="chat-container">
+ <div class="chat-row bottom">
+ <img src="images\LUDI PNG\ludi-worried.png"  alt="40%" width=40%">
+
+ <div class="chat-bubble"> Y pensar que todo empezo por un caballo...</div>
+
+   
+             </div>
+        </div>
+    </div>
+
+                                <h4>En este video verás a profundidad cómo funcionan estos 
+                                    mecanismos de adicción que las empresas usan para manteneros 
+                                    siempre ahí, lo peligrosas que son las micro transacciones 
+                                    y su origen, desde un enfoque más ameno y comprensible.
                                 </h4>
                             </div>
                         </div>
@@ -180,11 +307,45 @@
     </main>
 
     <footer class="bg-dark py-4 mt-auto">
-        <div class="container px-5">
-            <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                <div class="col-auto"><div class="small m-0" style="color:#FFFFFF;"> StopLuding &copy; DERECHOS RESERVADOS 2025</div></div>
+    <div class="container px-5">
+        <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+            <!-- Columna 1: Redes sociales -->
+            <div class="col-12 col-sm-4 mb-4 mb-sm-0">
+                <h5 class="text-white">Síguenos</h5>
+                <ul class="list-unstyled">
+                    <li><a href="https://www.facebook.com" class="text-white" target="_blank"><i class="bi bi-facebook"></i> Facebook</a></li>
+                    <li><a href="https://www.twitter.com" class="text-white" target="_blank"><i class="bi bi-twitter"></i> Twitter</a></li>
+                    <li><a href="https://www.instagram.com" class="text-white" target="_blank"><i class="bi bi-instagram"></i> Instagram</a></li>
+                    <li><a href="https://www.linkedin.com" class="text-white" target="_blank"><i class="bi bi-linkedin"></i> LinkedIn</a></li>
+                </ul>
+            </div>
+
+            <!-- Columna 2: Enlaces de referencia -->
+            <div class="col-12 col-sm-4 mb-4 mb-sm-0">
+                <h5 class="text-white">Referencias</h5>
+                <ul class="list-unstyled">
+                    <li><a href="politica_privacidad.html" class="text-white">Política de Privacidad</a></li>
+                    <li><a href="terminos_condiciones.html" class="text-white">Términos y Condiciones</a></li>
+                    <li><a href="contacto.html" class="text-white">Contacto</a></li>
+                </ul>
+            </div>
+
+            <!-- Columna 3: Iconos de servicios -->
+            <div class="col-12 col-sm-4 mb-4 mb-sm-0">
+                <h5 class="text-white">Servicios</h5>
+                <ul class="list-unstyled">
+                    <li><a href="evaluar.html" class="text-white"><i class="bi bi-check-circle"></i> Evaluación</a></li>
+                    <li><a href="contenido.html" class="text-white"><i class="bi bi-journal-text"></i> Contenido</a></li>
+                    <li><a href="perfil.html" class="text-white"><i class="bi bi-person-circle"></i> Perfil</a></li>
+                </ul>
             </div>
         </div>
-    </footer>
+        <div class="row mt-3">
+            <div class="col text-center">
+                <div class="small m-0 text-white">STOPLUDING &copy; DERECHOS RESERVADOS 2025</div>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
