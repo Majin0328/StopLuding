@@ -48,6 +48,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <title>Evaluación - StopLuding</title>
     <link rel="icon" type="image/x-icon" href="images/StopLudingLogoFavIcon.png" />
     <link href="css/styles.css" rel="stylesheet" />
+    <!-- Custom Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+        rel="stylesheet" />
+
     <style>
         .form-select,
         .form-check-input {
@@ -75,7 +81,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                             <h2 class="fw-bold text-white">Autoevaluación de Ludopatía</h2>
                             <p class="text-white">Responde sinceramente para conocer tu nivel.</p>
 
-                            <form method="POST" action="evaluacion.php" class="text-start">
+                            <form method="POST" action="procesar.php" class="text-start">
+
                                 <?php
                                 // Preguntas ejemplo (se pueden expandir hasta 20)
                                 $preguntas = [
@@ -119,13 +126,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                 </div>
                             </form>
 
-                            <?php if ($resultado): ?>
-                                <div class="alert alert-info mt-4">
-                                    <h4>Resultado: <?= $resultado["nivel"] ?></h4>
-                                    <p>Puntaje total: <?= $resultado["puntaje"] ?></p>
-                                    <p><strong>Consejos:</strong> <?= $resultado["consejos"] ?></p>
-                                </div>
-                            <?php endif; ?>
                         </div>
                     </div>
                 </div>
@@ -134,15 +134,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </main>
 
     <!-- Footer -->
-    <footer class="bg-dark py-4 mt-auto">
-        <div class="container px-5">
-            <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                <div class="col-auto">
-                    <div class="small m-0" style="color:#FFFFFF;">StopLuding &copy; DERECHOS RESERVADOS 2025</div>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <?php include('footer.php'); ?>
 </body>
 
 </html>
