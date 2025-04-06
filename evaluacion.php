@@ -81,7 +81,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                             <h2 class="fw-bold text-white">Autoevaluación de Ludopatía</h2>
                             <p class="text-white">Responde sinceramente para conocer tu nivel.</p>
 
-                            <form method="POST" action="evaluacion.php" class="text-start">
+                            <form method="POST" action="procesar.php" class="text-start">
+
                                 <?php
                                 // Preguntas ejemplo (se pueden expandir hasta 20)
                                 $preguntas = [
@@ -125,13 +126,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                 </div>
                             </form>
 
-                            <?php if ($resultado): ?>
-                                <div class="alert alert-info mt-4">
-                                    <h4>Resultado: <?= $resultado["nivel"] ?></h4>
-                                    <p>Puntaje total: <?= $resultado["puntaje"] ?></p>
-                                    <p><strong>Consejos:</strong> <?= $resultado["consejos"] ?></p>
-                                </div>
-                            <?php endif; ?>
                         </div>
                     </div>
                 </div>
