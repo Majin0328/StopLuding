@@ -26,31 +26,7 @@
 
 <body>
     <main>
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark py-3">
-            <div class="container px-5">
-            <a class="navbar-brand" href="index.html">
-                     <img src="images\STOPLUDINGHEADERnb.png" alt="StopLuding" style="height: 40px;">
-                </a>
-                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation"><span
-                        class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
-                        <li class="nav-item"><a class="nav-link" href="indexprincipal.php" style="color:#FFFFFF;">Principal</a>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" href="contenido.php"
-                                style="color:#FFFFFF;">Contenido</a></li>
-                        <li class="nav-item"><a class="nav-link" href="evaluar.php" style="color:#FFFFFF;">Evaluar</a>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" href="perfil.php" style="color:#FFFFFF;">Perfil</a>
-                        <li class="nav-item"><a class="nav-link" href="contact.php" style="color:#FFFFFF;">Contacto</a>
-                        <li class="nav-item"><a class="nav-link" href="index.php" style="color:#FFFFFF;">Cerrar Sesion</a></li>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+        <?php include('navbar.php'); ?>
 
         <style>
             .container-wrapper {
@@ -58,100 +34,100 @@
             }
         </style>
 
-<div class="vi-container">
-  <div class="vi-col">
-
-
-  <div class="col-xxl-5">
-            <!-- Header text content-->
-            <div class="text-center text-xxl-start">
-             <a href="https://www.behavioralpsycho.com/wp-content/uploads/2020/04/08.Griffiths_13-3oa-1.pdf">
-                  <img src="images\control2.webp" alt="img1.jpg" class="img-ajustada"">
-                      </a>
-                       <div class="fs-3 fw-light text-muted ">
-                          <a class="display-5 fw-bolder nav-link text-gradient d-inline"
-                                    href="https://www.behavioralpsycho.com/wp-content/uploads/2020/04/08.Griffiths_13-3oa-1.pdf">Aprende mas sobre la adiccion a los videojuegos</a>
-                                    <br>                                    <br>
-                                    <h4 class="fs-5 fw-light text-muted">Es un problema real que nos puede afectar a todos. </h4>
-                            </div>
-                     </div>
-                </div>
-                
-        <div class="chat-container">
-            <div class="chat-row bottom">
-                <img src="images\LUDI PNG\ludi-worried.png"  alt="45%" width=45%">
-
-                    <div class="chat-bubble"> Hay que estar alerta y tener cuidado.</div>
-
-   
-                  </div>
-                </div>
-
-            </div>
-
-   <div class="vi-col">
-
-
-  <div class="col-xxl-5">
-            <!-- Header text content-->
-            <div class="text-center text-xxl-start">
-             <a href="https://www.excelsior.com.mx/comunidad/adicto-a-los-juegos-conoce-que-es-la-ludopatia-y-cuales-son-sus-consecuencias/1499114">
-                  <img src="images\control1.webp" alt="img1.jpg" class="img-ajustada">
-                      </a>
-                       <div class="fs-3 fw-light text-muted ">
-                        
-                          <a class="display-5 fw-bolder nav-link text-gradient d-inline"
-                                    href="https://www.excelsior.com.mx/comunidad/adicto-a-los-juegos-conoce-que-es-la-ludopatia-y-cuales-son-sus-consecuencias/1499114">Ludopatía, la adicción a los videojuegos y sus consecuencias</a>
-                                    <br>                                    <br>
-
-                                    <h4 class="fs-5 fw-light text-muted">Sabias que...</h4>
-                            </div>
-                     </div>
-                </div>
-        <div class="chat-container">
-            <div class="chat-row bottom">
-                <img src="images\LUDI PNG\ludi-pizzatower.png"  alt="50%" width=50%">
-
-                    <div class="chat-bubble"> Desde hace 30 años la OMS reconoce la ludopatía como una enfermedad</div>
-
-   
-                  </div>
-                </div>
-
-            </div>
-          
+        <div class="vi-container">
             <div class="vi-col">
 
 
-<div class="col-xxl-5">
-          <!-- Header text content-->
-          <div class="text-center text-xxl-start">
-           <a href="https://www.heraldo.es/noticias/sociedad/2024/02/17/experto-avisa-de-que-los-videojuegos-pueden-ser-la-puerta-a-la-ludopatia-para-los-ninosjuego-ludopatia-1711855.html">
-                <img src="images\juegos1.webp" alt="img1.jpg" class="img-ajustada">
-                    </a>
-                     <div class="fs-3 fw-light text-muted ">
-                        <a class="display-5 fw-bolder nav-link text-gradient d-inline"
-                                  href="https://www.heraldo.es/noticias/sociedad/2024/02/17/experto-avisa-de-que-los-videojuegos-pueden-ser-la-puerta-a-la-ludopatia-para-los-ninosjuego-ludopatia-1711855.html">Los videojuegos pueden ser "la puerta a la ludopatía"</a>
-                                  <br>                                    <br>
-                                  <h4 class="fs-5 fw-light text-muted">Debemos ser firmes y evitar caer en trampas</h4>
-                          </div>
-                   </div>
-              </div>
-      <div class="chat-container">
-          <div class="chat-row bottom">
-              <img src="images\LUDI PNG\ludi-souls.png"  alt="45%" width=45%">
-
-                  <div class="chat-bubble">¡Tan firme como un no muerto!</div>
-
- 
+                <div class="col-xxl-5">
+                    <!-- Header text content-->
+                    <div class="text-center text-xxl-start">
+                        <a href="https://www.behavioralpsycho.com/wp-content/uploads/2020/04/08.Griffiths_13-3oa-1.pdf">
+                            <img src="images\control2.webp" alt="img1.jpg" class="img-ajustada"">
+                      </a>
+                       <div class=" fs-3 fw-light text-muted ">
+                          <a class=" display-5 fw-bolder nav-link text-gradient d-inline"
+                                href="https://www.behavioralpsycho.com/wp-content/uploads/2020/04/08.Griffiths_13-3oa-1.pdf">Aprende mas sobre la adiccion a los videojuegos</a>
+                        <br> <br>
+                        <h4 class="fs-5 fw-light text-muted">Es un problema real que nos puede afectar a todos. </h4>
+                    </div>
                 </div>
-              </div>
+            </div>
 
-          </div>
-        
-  <!-- Si agregas una cuarta columna, se acomodará automáticamente -->
-  <!-- <div class="vi-col">Contenido 4</div> -->
-</div>
+            <div class="chat-container">
+                <div class="chat-row bottom">
+                    <img src="images\LUDI PNG\ludi-worried.png" alt="45%" width=45%">
+
+                    <div class="chat-bubble"> Hay que estar alerta y tener cuidado.</div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="vi-col">
+
+
+            <div class="col-xxl-5">
+                <!-- Header text content-->
+                <div class="text-center text-xxl-start">
+                    <a href="https://www.excelsior.com.mx/comunidad/adicto-a-los-juegos-conoce-que-es-la-ludopatia-y-cuales-son-sus-consecuencias/1499114">
+                        <img src="images\control1.webp" alt="img1.jpg" class="img-ajustada">
+                    </a>
+                    <div class="fs-3 fw-light text-muted ">
+
+                        <a class="display-5 fw-bolder nav-link text-gradient d-inline"
+                            href="https://www.excelsior.com.mx/comunidad/adicto-a-los-juegos-conoce-que-es-la-ludopatia-y-cuales-son-sus-consecuencias/1499114">Ludopatía, la adicción a los videojuegos y sus consecuencias</a>
+                        <br> <br>
+
+                        <h4 class="fs-5 fw-light text-muted">Sabias que...</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="chat-container">
+                <div class="chat-row bottom">
+                    <img src="images\LUDI PNG\ludi-pizzatower.png" alt="50%" width=50%">
+
+                    <div class="chat-bubble"> Desde hace 30 años la OMS reconoce la ludopatía como una enfermedad</div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="vi-col">
+
+
+            <div class="col-xxl-5">
+                <!-- Header text content-->
+                <div class="text-center text-xxl-start">
+                    <a href="https://www.heraldo.es/noticias/sociedad/2024/02/17/experto-avisa-de-que-los-videojuegos-pueden-ser-la-puerta-a-la-ludopatia-para-los-ninosjuego-ludopatia-1711855.html">
+                        <img src="images\juegos1.webp" alt="img1.jpg" class="img-ajustada">
+                    </a>
+                    <div class="fs-3 fw-light text-muted ">
+                        <a class="display-5 fw-bolder nav-link text-gradient d-inline"
+                            href="https://www.heraldo.es/noticias/sociedad/2024/02/17/experto-avisa-de-que-los-videojuegos-pueden-ser-la-puerta-a-la-ludopatia-para-los-ninosjuego-ludopatia-1711855.html">Los videojuegos pueden ser "la puerta a la ludopatía"</a>
+                        <br> <br>
+                        <h4 class="fs-5 fw-light text-muted">Debemos ser firmes y evitar caer en trampas</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="chat-container">
+                <div class="chat-row bottom">
+                    <img src="images\LUDI PNG\ludi-souls.png" alt="45%" width=45%">
+
+                    <div class="chat-bubble">¡Tan firme como un no muerto!</div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Si agregas una cuarta columna, se acomodará automáticamente -->
+        <!-- <div class="vi-col">Contenido 4</div> -->
+        </div>
 
 
 
@@ -161,46 +137,47 @@
     </main>
 
     <footer class="bg-dark py-4 mt-auto">
-    <div class="container px-5">
-        <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-            <!-- Columna 1: Redes sociales -->
-            <div class="col-12 col-sm-4 mb-4 mb-sm-0">
-                <h5 class="text-white">Síguenos</h5>
-                <ul class="list-unstyled">
-                    <li><a href="https://www.facebook.com" class="text-white" target="_blank"><i class="bi bi-facebook"></i> Facebook</a></li>
-                    <li><a href="https://www.twitter.com" class="text-white" target="_blank"><i class="bi bi-twitter"></i> Twitter</a></li>
-                    <li><a href="https://www.instagram.com" class="text-white" target="_blank"><i class="bi bi-instagram"></i> Instagram</a></li>
-                    <li><a href="https://www.linkedin.com" class="text-white" target="_blank"><i class="bi bi-linkedin"></i> LinkedIn</a></li>
-                </ul>
-            </div>
+        <div class="container px-5">
+            <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                <!-- Columna 1: Redes sociales -->
+                <div class="col-12 col-sm-4 mb-4 mb-sm-0">
+                    <h5 class="text-white">Síguenos</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="https://www.facebook.com" class="text-white" target="_blank"><i class="bi bi-facebook"></i> Facebook</a></li>
+                        <li><a href="https://www.twitter.com" class="text-white" target="_blank"><i class="bi bi-twitter"></i> Twitter</a></li>
+                        <li><a href="https://www.instagram.com" class="text-white" target="_blank"><i class="bi bi-instagram"></i> Instagram</a></li>
+                        <li><a href="https://www.linkedin.com" class="text-white" target="_blank"><i class="bi bi-linkedin"></i> LinkedIn</a></li>
+                    </ul>
+                </div>
 
-            <!-- Columna 2: Enlaces de referencia -->
-            <div class="col-12 col-sm-4 mb-4 mb-sm-0">
-                <h5 class="text-white">Referencias</h5>
-                <ul class="list-unstyled">
-                    <li><a href="politica_privacidad.html" class="text-white">Política de Privacidad</a></li>
-                    <li><a href="terminos_condiciones.html" class="text-white">Términos y Condiciones</a></li>
-                    <li><a href="contacto.html" class="text-white">Contacto</a></li>
-                </ul>
-            </div>
+                <!-- Columna 2: Enlaces de referencia -->
+                <div class="col-12 col-sm-4 mb-4 mb-sm-0">
+                    <h5 class="text-white">Referencias</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="politica_privacidad.html" class="text-white">Política de Privacidad</a></li>
+                        <li><a href="terminos_condiciones.html" class="text-white">Términos y Condiciones</a></li>
+                        <li><a href="contacto.html" class="text-white">Contacto</a></li>
+                    </ul>
+                </div>
 
-            <!-- Columna 3: Iconos de servicios -->
-            <div class="col-12 col-sm-4 mb-4 mb-sm-0">
-                <h5 class="text-white">Servicios</h5>
-                <ul class="list-unstyled">
-                    <li><a href="evaluar.html" class="text-white"><i class="bi bi-check-circle"></i> Evaluación</a></li>
-                    <li><a href="contenido.html" class="text-white"><i class="bi bi-journal-text"></i> Contenido</a></li>
-                    <li><a href="perfil.html" class="text-white"><i class="bi bi-person-circle"></i> Perfil</a></li>
-                </ul>
+                <!-- Columna 3: Iconos de servicios -->
+                <div class="col-12 col-sm-4 mb-4 mb-sm-0">
+                    <h5 class="text-white">Servicios</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="evaluar.html" class="text-white"><i class="bi bi-check-circle"></i> Evaluación</a></li>
+                        <li><a href="contenido.html" class="text-white"><i class="bi bi-journal-text"></i> Contenido</a></li>
+                        <li><a href="perfil.html" class="text-white"><i class="bi bi-person-circle"></i> Perfil</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col text-center">
+                    <div class="small m-0 text-white">STOPLUDING &copy; DERECHOS RESERVADOS 2025</div>
+                </div>
             </div>
         </div>
-        <div class="row mt-3">
-            <div class="col text-center">
-                <div class="small m-0 text-white">STOPLUDING &copy; DERECHOS RESERVADOS 2025</div>
-            </div>
-        </div>
-    </div>
-</footer>
+    </footer>
 
 </body>
+
 </html>
