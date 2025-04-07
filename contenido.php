@@ -56,9 +56,9 @@
                                 <p>¿Tienes las sospechas de que igual y estas 
                                 desarrollando un problema?</p>
                                 </div>
+               
                                 
         <div class="container d-flex justify-content-center align-items-center" style="height: 33vh;">
-
     <div class="chat-container">
      <div class="chat-row right">
         <div style="display: flex; flex-direction: column; padding: 10px;">

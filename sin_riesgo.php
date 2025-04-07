@@ -33,12 +33,12 @@ $consejos = $_GET['consejos'] ?? '';
 <body>
 
      <!-- Imagen de fondo 1 -->
-     <div class="fondo-imagen" style="position: absolute; top: 240px; left: 180px; width: 200px; height: 300px;">
+     <div class="fondo-imagen" style="position: absolute; top: 220px; left: 110px; width: 200px; height: 300px;">
   <img src="images/PDVertical.png" alt="Imagen 1" style="width: 100%; height: 100%; object-fit: contain;">
 </div>
 
 <!-- Imagen de fondo 2 -->
-<div class="fondo-imagen" style="position: absolute; top: 550px; left: 950px; width: 200px; height: 300px;">
+<div class="fondo-imagen" style="position: absolute; top: 280px; left: 1050px; width: 200px; height: 300px;">
   <img src="images/PBVertical.png" alt="Imagen 2" style="width: 100%; height: 100%; object-fit: contain;">
 </div>
 

@@ -32,13 +32,13 @@ $consejos = $_GET['consejos'] ?? '';
 </head>
 <body>
 
-     <!-- Imagen de fondo 1 -->
-     <div class="fondo-imagen" style="position: absolute; top: 240px; left: 180px; width: 200px; height: 300px;">
+      <!-- Imagen de fondo 1 -->
+      <div class="fondo-imagen" style="position: absolute; top: 220px; left: 110px; width: 200px; height: 300px;">
   <img src="images/PDVertical.png" alt="Imagen 1" style="width: 100%; height: 100%; object-fit: contain;">
 </div>
 
 <!-- Imagen de fondo 2 -->
-<div class="fondo-imagen" style="position: absolute; top: 550px; left: 950px; width: 200px; height: 300px;">
+<div class="fondo-imagen" style="position: absolute; top: 280px; left: 1050px; width: 200px; height: 300px;">
   <img src="images/PBVertical.png" alt="Imagen 2" style="width: 100%; height: 100%; object-fit: contain;">
 </div>
 
@@ -53,7 +53,7 @@ $consejos = $_GET['consejos'] ?? '';
             <div class="container d-flex justify-content-center align-items-center" style="height: 35vh;">
 <div class="chat-container">
  <div class="chat-row ">
-                <img src="images\LUDI PNG\ludi-len.png"  alt="20%" width="20%">
+                <img src="images\LUDI PNG\ludi-mario.png"  alt="20%" width="20%">
       <div class="chat-bubble-big"><strong>Consejo:</strong> <?= htmlspecialchars($consejos) ?></div>
         </div>
     </div>
