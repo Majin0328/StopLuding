@@ -25,7 +25,7 @@ if (isset($_POST['ELIMINAR_PERFIL'])) {
         echo "El registro se ha eliminado correctamente";
 
         // Redirigir al usuario a index.html
-        header("Location: index.php");
+        header("Location: indexprincipal.php");
         exit();
     } else {
         echo "Error al eliminar el registro: " . $conn->error;
