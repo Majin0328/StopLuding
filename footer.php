@@ -26,7 +26,7 @@
             <div class="col-12 col-sm-4 mb-4 mb-sm-0">
                 <h5 class="text-white">Servicios</h5>
                 <ul class="list-unstyled">
-                    <li><a href="evaluacion.html" class="text-white"><i class="bi bi-check-circle"></i> Evaluación</a></li>
+                    <li><a href="evaluacion.php" class="text-white"><i class="bi bi-check-circle"></i> Evaluación</a></li>
                     <li><a href="contenido.html" class="text-white"><i class="bi bi-journal-text"></i> Contenido</a></li>
                     <li><a href="perfil.html" class="text-white"><i class="bi bi-person-circle"></i> Perfil</a></li>
                 </ul>
