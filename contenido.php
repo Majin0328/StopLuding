@@ -50,7 +50,7 @@
 
                             <div class="fs-1 fw-light text-muted ">
                                 <a class="display-5 fw-bolder nav-link text-gradient d-inline"
-                                    href="evaluar.php">Identifica el problema</a>
+                                    href="evaluacion.php">Identifica el problema</a>
                                 <br>
                                 <div class="fs-3 fw-light text-muted ">
                                 <p>¿Tienes las sospechas de que igual y estas 
