@@ -10,7 +10,7 @@
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
                 <li class="nav-item"><a class="nav-link" href="indexprincipal.php" style="color:#FFFFFF;">Principal</a></li>
                 <li class="nav-item"><a class="nav-link" href="contenido.php" style="color:#FFFFFF;">Contenido</a></li>
-                <li class="nav-item"><a class="nav-link" href="evaluar.php" style="color:#FFFFFF;">Evaluar</a></li>
+                <li class="nav-item"><a class="nav-link" href="evaluacion.php" style="color:#FFFFFF;">Evaluar</a></li>
                 <li class="nav-item"><a class="nav-link" href="contact.php" style="color:#FFFFFF;">Contacto</a></li>
                 <li class="nav-item"><a class="nav-link" href="perfil.php" style="color:#FFFFFF;">Perfil</a>
                 <li class="nav-item"><a class="nav-link" href="index.php" style="color:#FFFFFF;">Cerrar Sesion</a></li>
