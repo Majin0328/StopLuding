@@ -1,4 +1,9 @@
 <?php
+
+require_once "autoload_mongo.php";
+
+use MongoDB\Client;
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $respuestas = $_POST['pregunta'];
     $puntaje = 0;
@@ -25,12 +30,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $consejos = "Es urgente que busques ayuda profesional inmediata.";
     }
 
+    // Crear la conexion a base de datos
+    $cliente = new Client("mongodb://localhost:27017");
+
+    $db = $cliente->StopLuding;
+    $coleccion = $db->resultados;
+
     $resultado = [
         "fecha" => date("Y-m-d H:i:s"),
         "puntaje" => $puntaje,
         "nivel" => $nivel,
         "consejos" => $consejos
     ];
+
+    $insertOneResultado = $coleccion->insertOne($resultado);
 
     // Guardar en archivo JSON
     $archivo = "resultados.json";

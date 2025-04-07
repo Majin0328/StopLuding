@@ -46,7 +46,8 @@ if __name__ == "__main__":
     if os.path.isfile(PHP_INI):
         print(f"{PHP_INI} does exist")
     else:
-        print("what")
+        print(f"Couldnt find {PHP_INI}")
+        exit(1)
 
     with open(PHP_INI, "r", encoding="utf-8") as php_ini:
         lines = php_ini.readlines()
@@ -77,4 +78,5 @@ if __name__ == "__main__":
         print(f"Could not find 'extension=mysqli' in {PHP_INI}")
         print(f"Nothing was added, consider doing it yourself adding this line to {PHP_INI}")
         print(f"    {new_ext}")
+        exit(1)
 
