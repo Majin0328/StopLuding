@@ -71,7 +71,7 @@ if __name__ == "__main__":
         with open(PHP_INI, "w") as php_ini:
             php_ini.writelines(lines)
 
-        print(f"Extension {new_ext.split("=")[-1].strip()} added in {PHP_INI}")
+        print(f"Extension {new_ext.split('=')[-1].strip()} added in {PHP_INI}")
 
     else:
         print(f"Could not find 'extension=mysqli' in {PHP_INI}")
