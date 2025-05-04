@@ -16,6 +16,8 @@
         <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
         <link href="css/styles.css" rel="stylesheet" />
         <link href="css/styles.css?v=2" rel="stylesheet" />
 
@@ -23,17 +25,17 @@
 
 <body>
       <!-- Imagen de fondo 1 -->
-<div class="fondo-imagen" style="position: absolute; top: 240px; left: 180px; width: 200px; height: 300px;">
+<div class="fondo-imagen animate-on-scroll animate__animated" style="position: absolute; top: 240px; left: 180px; width: 200px; height: 300px;">
   <img src="images/PDVertical.png" alt="Imagen 1" style="width: 100%; height: 100%; object-fit: contain;">
 </div>
 
 <!-- Imagen de fondo 2 -->
-<div class="fondo-imagen" style="position: absolute; top: 550px; left: 950px; width: 200px; height: 300px;">
+<div class="fondo-imagen animate-on-scroll animate__animated" style="position: absolute; top: 550px; left: 950px; width: 200px; height: 300px;">
   <img src="images/PBVertical.png" alt="Imagen 2" style="width: 100%; height: 100%; object-fit: contain;">
 </div>
 
   <!-- Imagen de fondo 3 -->
-  <div class="fondo-imagen" style="position: absolute; top: 1100px; left: 180px; width: 200px; height: 300px;">
+  <div class="fondo-imagen animate-on-scroll animate__animated" style="position: absolute; top: 1100px; left: 180px; width: 200px; height: 300px;">
   <img src="images/PDVertical.png" alt="Imagen 1" style="width: 100%; height: 100%; object-fit: contain;">
 </div>
 
@@ -41,7 +43,7 @@
         <!-- Navigation-->
         <?php include('navbar.php'); ?>
 
-        <header class="py-3">
+        <header class="py-3 animate-on-scroll animate__animated">
             <div class="container pb-5">
                 <div class="row gx-3 align-items-center">
                     <div class="col-xxl-5">
@@ -76,7 +78,7 @@
             </div>
         </header>
 
-        <header class="py-3">
+        <header class="py-3 animate-on-scroll animate__animated">
             <div class="container pb-5">
                 <div class="row gx-5 align-items-center">
                     <div class="col-xxl-5">
@@ -106,7 +108,7 @@
             </div>
         </header>
 
-        <header class="py-3">
+        <header class="py-3 animate-on-scroll animate__animated">
             <div class="container pb-5">
                 <div class="row gx-5 align-items-center">
                     <div class="col-xxl-5">
@@ -146,5 +148,9 @@
     <!-- Footer-->
     <?php include('footer.php'); ?>
     </main>
+
+    <script src="js\anime.js"></script>
+    <script src="js\voice.js"></script>
+
 </body>
 </html>

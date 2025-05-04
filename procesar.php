@@ -11,23 +11,23 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($puntaje <= 16) {
         $nivel = "Sin señales de ludopatía";
         $consejos = "Sigue disfrutando responsablemente tus juegos.";
-        $pagina = "sin_riesgo.php";
+        $pagina = "riesgo1.php";
     } elseif ($puntaje <= 32) {
         $nivel = "Riesgo leve";
         $consejos = "Comienza a establecer límites de tiempo y gasto.";
-        $pagina = "riesgo_leve.php";
+        $pagina = "riesgo2.php";
     } elseif ($puntaje <= 48) {
         $nivel = "Riesgo moderado";
         $consejos = "Evalúa tus hábitos y considera apoyo psicológico.";
-        $pagina = "riesgo_moderado.php";
+        $pagina = "riesgo3.php";
     } elseif ($puntaje <= 64) {
         $nivel = "Riesgo alto";
         $consejos = "Busca ayuda profesional y reduce el uso progresivamente.";
-        $pagina = "riesgo_alto.php";
+        $pagina = "riesgo4.php";
     } else {
         $nivel = "Ludopatía severa";
         $consejos = "Es urgente que busques ayuda profesional inmediata.";
-        $pagina = "ludopatia_severa.php";
+        $pagina = "riesgo5.php";
     }
 
     // Guardar en archivo JSON

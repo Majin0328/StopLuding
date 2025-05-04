@@ -10,6 +10,7 @@
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="images\StopLudingLogoFavIcon.png" />
     <!-- Custom Google font-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
@@ -166,32 +167,33 @@
             </div>
         </header>
         <!-- Imagen de fondo 1 -->
-        <div class="fondo-imagen" style="position: absolute; top: 1200px; left: 180px; width: 200px; height: 300px;">
+        <div class="fondo-imagen animate-on-scroll animate__animated" style="position: absolute; top: 1200px; left: 180px; width: 200px; height: 300px;">
             <img src="images/PDVertical.png" alt="Imagen 1" style="width: 100%; height: 100%; object-fit: contain;">
         </div>
 
         <!-- Imagen de fondo 2 -->
-        <div class="fondo-imagen" style="position: absolute; top: 1300px; left: 800px; width: 200px; height: 300px;">
+        <div class="fondo-imagen animate-on-scroll animate__animated" style="position: absolute; top: 1300px; left: 800px; width: 200px; height: 300px;">
             <img src="images/PBVertical.png" alt="Imagen 2" style="width: 100%; height: 100%; object-fit: contain;">
         </div>
 
 
 
-        <div class="row gx-5 justify-content-center">
+        <div class="row gx-5 justify-content-center ">
             <div class="text-center my-5">
                 <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">¡Le damos la bienvenida a Ludi!</span></h2>
             </div>
         </div>
 
-        <div class="chat-container">
-            <div class="chat-row right">
-                <div style="display: flex; flex-direction: column; padding: 10px;">
-                    <div class="chat-bubble-big right">¡Hola! Soy Ludi, el Zorro Astuto</div>
-                    <div class="chat-bubble right">Vengo de un mundo digital lleno de aventuras y trampas como microtransacciones y lootboxes. Con mi antifaz, represento la astucia necesaria para evitar caer en estos engaños. Mi misión es ayudar a los jugadores a disfrutar de los videojuegos de manera justa, sin dejarse atrapar por ofertas que solo buscan sacarles más de lo que deberían. ¡Juntos enfrentaremos las trampas y disfrutaremos de los juegos de manera inteligente!</div>
-                </div>
-                <img src="images\LUDI PNG\LUDI.png" alt="35%" width="35%">
-            </div>
-        </div>
+        <div class="chat-container animate-on-scroll animate__animated">
+  <div class="chat-row right" onclick="leerChat(this)">
+    <div style="display: flex; flex-direction: column; padding: 10px;">
+      <div class="chat-bubble-big right">¡Hola! Soy Ludi, el Zorro Astuto.</div>
+      <div class="chat-bubble right">Vengo de un mundo digital lleno de aventuras y trampas como microtransacciones y lootboxes. Con mi antifaz, represento la astucia necesaria para evitar caer en estos engaños. Mi misión es ayudar a los jugadores a disfrutar de los videojuegos de manera justa, sin dejarse atrapar por ofertas que solo buscan sacarles más de lo que deberían. ¡Juntos enfrentaremos las trampas y disfrutaremos de los juegos de manera inteligente!</div>
+    </div>
+    <img src="images/LUDI PNG/LUDI.png" alt="Ludi" width="35%" style="cursor: pointer;">
+  </div>
+</div>
+
 
 
         <!-- About Section-->
@@ -210,7 +212,7 @@
                     </div>
                 </div>
         </section>
-        <section class="mis-vis">
+        <section class="mis-vis animate-on-scroll animate__animated">
             <div>
 
 
@@ -244,6 +246,9 @@
 
 
     <script src="js\scripts.js"></script>
+    <script src="js\anime.js"></script>
+    <script src="js\voice.js"></script>
+
 
 </body>
 

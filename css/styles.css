@@ -11,8 +11,26 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
+  /* animaciones */
+
+
+  .animate__hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transform: translateY(20px); /* Opcional para hacer la transición más suave */
+    transition: all 0.3s ease-out;
+  }
+
+  .animate__animated {
+    visibility: visible !important;
+    pointer-events: auto;
+  }
+
+
  /* Estilo para footer */
 
+ 
  footer a:hover {
   text-decoration: underline;
   color: #f8f9fa;

@@ -18,6 +18,8 @@
     <!-- Bootstrap icons-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
     <link href="css/styles.css" rel="stylesheet" />
     <link href="css/containers.css" rel="stylesheet" />
     <link href="css/styles.css?v=2" rel="stylesheet" />
@@ -34,7 +36,7 @@
             }
         </style>
 
-        <div class="vi-container">
+        <div class="vi-container animate-on-scroll animate__animated">
             <div class="vi-col">
 
 
@@ -53,7 +55,7 @@
                 </div>
             </div>
 
-            <div class="chat-container">
+            <div class="chat-container ">
                 <div class="chat-row bottom">
                     <img src="images\LUDI PNG\ludi-worried.png" alt="45%" width=45%">
 
@@ -137,6 +139,9 @@
     </main>
 
     <?php include('footer.php'); ?>
+
+    <script src="js\anime.js"></script>
+
 
 </body>
 
