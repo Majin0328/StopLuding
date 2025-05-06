@@ -19,4 +19,3 @@ spl_autoload_register(function ($class) {
     }
 });
 
-echo "<p>autoload invocado</p>";

@@ -1,4 +1,9 @@
 <?php
+
+require_once "autoload_mongo.php";
+
+use MongoDB\Client;
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $respuestas = $_POST['pregunta'];
     $puntaje = 0;
@@ -30,7 +35,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $pagina = "riesgo5.php";
     }
 
-    // Guardar en archivo JSON
     $resultado = [
         "fecha" => date("Y-m-d H:i:s"),
         "puntaje" => $puntaje,
@@ -38,10 +42,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         "consejos" => $consejos
     ];
 
-    $archivo = "resultados.json";
-    $datos = file_exists($archivo) ? json_decode(file_get_contents($archivo), true) : [];
-    $datos[] = $resultado;
-    file_put_contents($archivo, json_encode($datos, JSON_PRETTY_PRINT));
+    // Crear la conexion con el cliente
+
+    $cliente = new Client("mongodb://localhost27017");
+    $db = $cliente->StopLuding;
+    $coleccion = $db->resultados;
+
+    $resultado_insert = $coleccion->insertOne($resultado);
 
     // Redirigir a la página correspondiente con parámetros
     header("Location: $pagina?puntaje=$puntaje&nivel=" . urlencode($nivel) . "&consejos=" . urlencode($consejos));
