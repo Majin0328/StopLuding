@@ -44,7 +44,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Crear la conexion con el cliente
 
-    $cliente = new Client("mongodb://localhost27017");
+    $cliente = new Client("mongodb://localhost:27017");
     $db = $cliente->StopLuding;
     $coleccion = $db->resultados;
 
