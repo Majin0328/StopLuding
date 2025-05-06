@@ -48,7 +48,6 @@ if __name__ == "__main__":
     else:
         print(f"Couldnt find {PHP_INI}")
         exit(1)
-        print("what")
 
     with open(PHP_INI, "r", encoding="utf-8") as php_ini:
         lines = php_ini.readlines()
