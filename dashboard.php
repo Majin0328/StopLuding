@@ -24,9 +24,27 @@ include("navbar.php");
     <title>Dashboard de Puntajes</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>StopLuding - INICIO</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="images\StopLudingLogoFavIcon.png" />
+    <!-- Custom Google font-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+  
+
 </head>
 
 <body class="bg-light">
+    
 
     <div class="container my-5">
         <h2 class="text-center mb-4">📊 Dashboard de Puntajes</h2>
@@ -123,6 +141,8 @@ include("navbar.php");
         actualizarGrafica();
         setInterval(actualizarGrafica, 10000);
     </script>
+
+<?php include('footer.php'); ?>
 
 </body>
 

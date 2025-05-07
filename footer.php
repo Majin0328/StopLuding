@@ -6,9 +6,9 @@
                 <h5 class="text-white">Síguenos</h5>
                 <ul class="list-unstyled">
                     <li><a href="https://www.facebook.com/profile.php?id=61573735804455" class="text-white" target="_blank"><i class="bi bi-facebook"></i> Facebook</a></li>
-                    <li><a href="https://www.twitter.com" class="text-white" target="_blank"><i class="bi bi-twitter"></i> Twitter</a></li>
+                    <li><a href="https://x.com/StopLuding?t=jwnmsWjMAkTh6qqpuvZWWQ&s=09" class="text-white" target="_blank"><i class="bi bi-twitter"></i> Twitter</a></li>
                     <li><a href="https://www.instagram.com" class="text-white" target="_blank"><i class="bi bi-instagram"></i> Instagram</a></li>
-                    <li><a href="https://www.linkedin.com" class="text-white" target="_blank"><i class="bi bi-linkedin"></i> LinkedIn</a></li>
+                    <li><a href="https://www.linkedin.com/in/agust%C3%ADn-ezequiel-t%C3%A9llez-p%C3%A9rez-89005b255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="text-white" target="_blank"><i class="bi bi-linkedin"></i> LinkedIn</a></li>
                 </ul>
             </div>
 
@@ -28,7 +28,6 @@
                 <ul class="list-unstyled">
                     <li><a href="evaluacion.php" class="text-white"><i class="bi bi-check-circle"></i> Evaluación</a></li>
                     <li><a href="contenido.php" class="text-white"><i class="bi bi-journal-text"></i> Contenido</a></li>
-                    <li><a href="perfil.php" class="text-white"><i class="bi bi-person-circle"></i> Perfil</a></li>
                 </ul>
             </div>
         </div>
