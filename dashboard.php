@@ -12,22 +12,6 @@ $registros = $coleccion->find([], [
     'sort' => ['fecha' => -1],
 ]);
 
-// Conteo de niveles 1 a 5
-$niveles = [
-    "sin señales de ludopatía" => 0,
-    "riesgo leve" => 0,
-    "riesgo moderado" => 0,
-    "riesgo alto" => 0,
-    "ludopatía severa" => 0
-];
-
-foreach ($coleccion->find() as $doc) {
-    $nivel = strtolower(trim($doc['nivel'] ?? ''));
-    if (isset($niveles[$nivel])) {
-        $niveles[$nivel]++;
-    }
-}
-
 include("navbar.php");
 ?>
 
@@ -78,15 +62,31 @@ include("navbar.php");
 
     <script>
         const ctx = document.getElementById('nivelChart').getContext('2d');
+        const labels = ['Sin riesgo', 'Riesgo Leve', 'Riesgo Moderado', 'Riesgo Alto', 'Riesgo Severo'];
+        const backgroundColors = [
+            'rgba(108, 117, 125, 0.6)',
+            'rgba(13, 202, 240, 0.6)',
+            'rgba(255, 193, 7, 0.6)',
+            'rgba(255, 87, 34, 0.6)',
+            'rgba(220, 53, 69, 0.6)'
+        ];
+        const borderColors = [
+            'rgba(108, 117, 125, 1)',
+            'rgba(13, 202, 240, 1)',
+            'rgba(255, 193, 7, 1)',
+            'rgba(255, 87, 34, 1)',
+            'rgba(220, 53, 69, 1)'
+        ];
+
         const nivelChart = new Chart(ctx, {
             type: 'bar',
             data: {
-                labels: ['Nivel 1', 'Nivel 2', 'Nivel 3', 'Nivel 4', 'Nivel 5'],
+                labels: labels,
                 datasets: [{
                     label: 'Cantidad por nivel',
-                    data: <?= json_encode(array_values($niveles)) ?>,
-                    backgroundColor: 'rgba(13, 110, 253, 0.5)',
-                    borderColor: 'rgba(13, 110, 253, 1)',
+                    data: [],
+                    backgroundColor: backgroundColors,
+                    borderColor: borderColors,
                     borderWidth: 1
                 }]
             },
@@ -95,17 +95,11 @@ include("navbar.php");
                 plugins: {
                     legend: {
                         display: false
-                    },
-                    tooltip: {
-                        callbacks: {
-                            label: (ctx) => `Cantidad: ${ctx.raw}`
-                        }
                     }
                 },
                 scales: {
                     y: {
                         beginAtZero: true,
-                        stepSize: 1,
                         ticks: {
                             precision: 0
                         }
@@ -113,6 +107,21 @@ include("navbar.php");
                 }
             }
         });
+
+        // Función para cargar los datos vía AJAX
+        function actualizarGrafica() {
+            fetch('api_data.php')
+                .then(response => response.json())
+                .then(data => {
+                    nivelChart.data.datasets[0].data = data;
+                    nivelChart.update();
+                })
+                .catch(error => console.error('Error al cargar datos:', error));
+        }
+
+        // Llamar al cargar y cada 10 segundos
+        actualizarGrafica();
+        setInterval(actualizarGrafica, 10000);
     </script>
 
 </body>
