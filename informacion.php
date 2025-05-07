@@ -141,8 +141,9 @@
     <?php include('footer.php'); ?>
 
     <script src="js\anime.js"></script>
+    <script src="js\voice.js"></script>
 
-
+ 
 </body>
 
 </html>

@@ -16,9 +16,9 @@
             <div class="col-12 col-sm-4 mb-4 mb-sm-0">
                 <h5 class="text-white">Referencias</h5>
                 <ul class="list-unstyled">
-                    <li><a href="politica_privacidad.html" class="text-white">Política de Privacidad</a></li>
-                    <li><a href="terminos_condiciones.html" class="text-white">Términos y Condiciones</a></li>
-                    <li><a href="contacto.html" class="text-white">Contacto</a></li>
+                    <li><a href="politica_privacidad.php" class="text-white">Política de Privacidad</a></li>
+                    <li><a href="terminos_condiciones.php" class="text-white">Términos y Condiciones</a></li>
+                    <li><a href="contact.php" class="text-white">Contacto</a></li>
                 </ul>
             </div>
 
