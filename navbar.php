@@ -13,7 +13,6 @@
                 <li class="nav-item"><a class="nav-link" href="evaluacion.php" style="color:#FFFFFF;">Evaluar</a></li>
                 <li class="nav-item"><a class="nav-link" href="contact.php" style="color:#FFFFFF;">Contacto</a></li>
                 <li class="nav-item"><a class="nav-link" href="dashboard.php" style="color:#FFFFFF;">Dashboard</a>
-                <li class="nav-item"><a class="nav-link" href="index.php" style="color:#FFFFFF;">Cerrar Sesion</a></li>
 
             </ul>
         </div>
